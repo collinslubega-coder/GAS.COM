@@ -8,7 +8,7 @@ The GAS.COM mobile application signifies a pivotal upgrade for a cooking gas and
 
 **The Vision:** To deliver an unparalleled digital experience for GAS.COM customers, moving beyond the inherent limitations of web-based solutions to embrace the power of native mobile development. This overhaul aims to enhance user engagement, streamline operations, and establish a robust foundation for future scalability.
 
-**A Personal Note on Productivity:** This project was the culmination of immense effort, embodying a month of relentless dedication, consistent research, and overcoming countless failures. As the solo developer, the journey underscored the profound impact of cultivating personal habits that fuel productivity. For me, this involved a synergy of **good weed, good music, and a good vibe circle**. While not a recommendation for others, it stands as a testament to how leveraging personal routines and a supportive environment can unlock sustained focus and creativity, even under pressure, leading to achieving significant milestones.
+**A Personal Note on Productivity:** This project was the culmination of immense effort, embodying 3 years of relentless dedication, consistent research, and overcoming countless failures. As the solo developer, the journey underscored the profound impact of cultivating personal habits that fuel productivity. For me, this involved a synergy of **good weed, good music, and a good vibe circle**. While not a recommendation for others, it stands as a testament to how leveraging personal routines and a supportive environment can unlock sustained focus and creativity, even under pressure, leading to achieving significant milestones.
 
 ## 2. Architectural & Technological Transition: The Magnitude of Change
 
