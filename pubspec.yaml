@@ -1,0 +1,59 @@
+name: gas_com
+description: "A comprehensive upgrade to the GAS.COM mobile app for cooking gas and accessories retail in Uganda. This project transitions from a legacy webview app to a modern, native Flutter application with Material 3 design, enhanced security, grouped products, a 'buy for someone else' feature, and improved user experience for both Android and iOS platforms."
+publish_to: 'none'
+# Update this line:
+version: 3.0.0 # This sets the human-readable version to 3.0.0 for both platforms.
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  flutter_svg: ^2.0.10+1
+  form_field_validator: ^1.1.0
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+  syncfusion_flutter_charts: ^26.1.35
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/Illustration/
+    - assets/logo/
+
+  fonts:
+    - family: Grandis Extended
+      fonts:
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Black.ttf
+          weight: 900
+
+flutter_launcher_icons:
+  android: true # Set to true to ensure Android icons are generated
+  ios: true
+  image_path: "assets/logo/logo.png" # Your primary logo for the foreground
+  adaptive_icon_background: "#FFFFFF" # A simple background color (e.g., white) that the system can tint
+  adaptive_icon_foreground: "assets/logo/logo.png" # Explicitly use your logo for the foreground
+  min_sdk_android: 21
