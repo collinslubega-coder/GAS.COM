@@ -6,18 +6,18 @@
     "configurations": [
         
         {
-            "name": "GAS.COM V2.1",
+            "name": "GAS.COM V3.0.0",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "GAS.COM V2.1 (profile mode)",
+            "name": "GAS.COM V3.0.0 (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "GAS.COM V2.1 (release mode)",
+            "name": "GAS.COM V3.0.0 (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
